@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TeladocMed" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/skyblue</item>
+        <item name="colorPrimaryVariant">@color/skyblue</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/olympic</item>
+        <item name="colorSecondaryVariant">@color/olympic</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.TeladocMed" parent="Base.Theme.TeladocMed" />
+</resources>

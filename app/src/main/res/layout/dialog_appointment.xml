@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/skyblue_border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Appointment"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/skyblue"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadName"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Name and Surname"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/skyblue"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadCell"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Cell Number"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/skyblue"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadDate"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Date"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/skyblue"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadSymptoms"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Symptoms"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/skyblue"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadAtype"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Physical Or Virtual Appontment"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/skyblue"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Make Appointment"
+                android:id="@+id/saveButton"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

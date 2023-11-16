@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "375152531777",
+    "firebase_url": "https://tfc-teladoc-default-rtdb.firebaseio.com",
+    "project_id": "tfc-teladoc",
+    "storage_bucket": "tfc-teladoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375152531777:android:4b5296a2e793094f3929c0",
+        "android_client_info": {
+          "package_name": "com.example.bird_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB0bO_HTsaL9RUfu8Kce-v4BN0hF7HTAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375152531777:android:d38cb0acc89476933929c0",
+        "android_client_info": {
+          "package_name": "com.example.teladocmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB0bO_HTsaL9RUfu8Kce-v4BN0hF7HTAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375152531777:android:a85c77b01ab057af3929c0",
+        "android_client_info": {
+          "package_name": "com.example.teladocmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB0bO_HTsaL9RUfu8Kce-v4BN0hF7HTAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375152531777-a6vqbhlv937ruim472j9mrugmed8gq30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
